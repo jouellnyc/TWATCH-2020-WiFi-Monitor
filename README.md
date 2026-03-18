@@ -29,9 +29,9 @@ This firmware has the `st7789` display driver built in, which is required.
 The following must be present on the device filesystem:
 
 - `axp202c.py` — AXP202 power management driver
+Included in Russ's Build
 - `fonts/lily_go_watch_vga1_bold_16x32.py` — font for the watch screen
-
-Both are available from the [BB-ESP32-KIOSK repo](https://github.com/jouellnyc/BB-ESP32-KIOSK) — grab the `fonts/` and `lib/` folders from there.
+Available from the [BB-ESP32-KIOSK repo](https://github.com/jouellnyc/BB-ESP32-KIOSK) — grab the `fonts/` and `lib/` folders from there.
 
 ### IDE
 
