@@ -5,13 +5,13 @@ A simple MicroPython app for the **LilyGO T-WATCH-2020** that displays:
 - 📡 Signal strength (dBm) of a target WiFi SSID
 - 🔋 Battery percentage (calculated from voltage)
 
-![TWATCH-2020 WiFi Monitor](screenshot.png)
+<img width="408" height="413" alt="image" src="https://github.com/user-attachments/assets/f02b11fc-92c7-4c58-8db0-7acd5b99b4d3" />
 
 ---
 
 ## Hardware
 
-- [LilyGO T-WATCH-2020](https://www.aliexpress.us/item/3256802898629918.html)
+- [LilyGO T-WATCH-2020](https://lilygo.cc/en-us/products/t-watch-2020-v3)
 - USB-C cable
 
 ---
@@ -28,10 +28,8 @@ This firmware has the `st7789` display driver built in, which is required.
 
 The following must be present on the device filesystem:
 
-- `axp202c.py` — AXP202 power management driver
-Included in Russ's Build
-- `fonts/lily_go_watch_vga1_bold_16x32.py` — font for the watch screen
-Available from the [BB-ESP32-KIOSK repo](https://github.com/jouellnyc/BB-ESP32-KIOSK) — grab the `fonts/` and `lib/` folders from there.
+- `axp202c.py` — AXP202 power management driver (Included in Russ's Build)
+- `fonts/lily_go_watch_vga1_bold_16x32.py` — font for the watch screen (Available from the [BB-ESP32-KIOSK repo](https://github.com/jouellnyc/BB-ESP32-KIOSK) — grab the `fonts/` and `lib/` folders from there.)
 
 ### IDE
 
@@ -60,7 +58,7 @@ MONTH = 3
 DAY   = 17
 
 # --- Set your target SSID here ---
-TARGET_SSID = "Jinxy-64"
+TARGET_SSID = "SSID"
 ```
 
 - **MONTH / DAY** — set to today's date (the watch has no RTC battery so date resets on power off)
