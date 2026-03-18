@@ -5,7 +5,7 @@ A simple MicroPython app for the **LilyGO T-WATCH-2020** that displays:
 - 📡 Signal strength (dBm) of a target WiFi SSID
 - 🔋 Battery percentage (calculated from voltage)
 
-![TWATCH-2020 WiFi Monitor](screenshot.png)
+<img width="816" height="826" alt="image" src="https://github.com/user-attachments/assets/f02b11fc-92c7-4c58-8db0-7acd5b99b4d3" />
 
 ---
 
