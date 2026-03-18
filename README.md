@@ -11,7 +11,7 @@ A simple MicroPython app for the **LilyGO T-WATCH-2020** that displays:
 
 ## Hardware
 
-- [LilyGO T-WATCH-2020](https://www.aliexpress.us/item/3256802898629918.html)
+- [LilyGO T-WATCH-2020](https://lilygo.cc/en-us/products/t-watch-2020-v3)
 - USB-C cable
 
 ---
