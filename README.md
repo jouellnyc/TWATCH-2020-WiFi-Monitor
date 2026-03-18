@@ -133,7 +133,7 @@ The main app loop:
 This project was built on top of the hardware init patterns from:
 - [BB-ESP32-KIOSK](https://github.com/jouellnyc/BB-ESP32-KIOSK) by [@jouellnyc](https://github.com/jouellnyc)
 - [st7789_mpy](https://github.com/russhughes/st7789_mpy) by [@russhughes](https://github.com/russhughes)
-- NOTE: This was purely AI driven by Claude but used my guidance and knowledge of the above projects.
+- NOTE: Code driven by Claude but used my knowledge of the above projects (inspiration: Giggle at Work).
 ---
 
 ## License
